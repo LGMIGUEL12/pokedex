@@ -6,6 +6,7 @@ body{
     width: 500px;
     margin: auto;
     padding: 10px;
+    
 }
 .poke-card{
     position: relative;
@@ -45,6 +46,7 @@ border: 1px solid #000;
     margin-right: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 .contenedor2{
     width: 300px;
@@ -58,5 +60,5 @@ form{
 }
 
 .lineaArriba, .lineaAbajo{
-    border: 1px solid #000;
+    border: 1px solid rgb(255, 255, 255);
 }
