@@ -44,7 +44,12 @@ const datosPokemon = (data) => {
   colorPokemon(types);
   tipoPokemon(types);
   pokemonStats(stats);
+  if(datosPokemon)  {
+    $(".background").attr("class", "changeBackground")
+  }
 };
+
+
 
 const colorPokemon = (types) => {
   const colorUno = tipoColor[types[0].type.name];

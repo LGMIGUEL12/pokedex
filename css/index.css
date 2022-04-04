@@ -1,5 +1,10 @@
-body {
-  background-image: url("/imagenes/pokemon-first-generation-pokemon-wallpaper-preview.jpg");
+.changeBackground {
+  background: url("/imagenes/pokemon-legends-arceus-hero.jpg");
+  background-size: cover;
+}
+
+.background {
+  background: url("/imagenes/pokemon-first-generation-pokemon-wallpaper-preview.jpg");
   background-size: cover;
 }
 
@@ -23,10 +28,10 @@ body {
   border: 1px solid #000;
 }
 
-.imagencaja {
+.cajaImagen {
   position: relative;
   width: 100px;
-  margin: 10px auto;
+  margin: 45px;
 }
 
 .poke-img {

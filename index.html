@@ -18,65 +18,67 @@
     <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="dropdown">
-        <button
-          class="btn btn-default dropdown-toggle"
-          type="button"
-          id="dropdownMenu2"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          INSTRUCCIONES
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li>1. Busca los pokemons por id o por su nombre</li>
-          <li>2. Los pokemons estan desde el 1 al 898</li>
-          <li>3. Preciona enter o el boton para comenzar la busqueda</li>
-        </ul>
-      </div>
-    </div>
-    <div class="primerCaja">
-      <div class="cajaArriba">
-        <div class="lineaArriba"></div>
-      </div>
-      <div class="contenedor">
-        <div class="contenedor2">
-          <div class="cajaForm">
-            <form action="" onsubmit="llamadoPokemon(event)">
-              <input type="text" name="pokemon" autocomplete="off" />
-              <button>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                  />
-                </svg>
-              </button>
-            </form>
-          </div>
-          <div class="poke-card">
-            <div id="nombre">Pokedex</div>
-            <div id="imagenCaja" class="imagenCaja">
-              <img
-                id="imagen"
-                class="poke-img"
-                src="/imagenes/Poké_Ball_(Ilustración).png"
-              />
-            </div>
-            <div id="id"></div>
-            <div id="tipos" class="poke-types"></div>
-            <div id="caracteristicas" class="poke-stats"></div>
-          </div>
+    <div class="background">
+      <div class="container">
+        <div class="dropdown">
+          <button
+            class="btn btn-default dropdown-toggle"
+            type="button"
+            id="dropdownMenu2"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            INSTRUCCIONES
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li>1. Busca los pokemons por id o por su nombre</li>
+            <li>2. Los pokemons estan desde el 1 al 898</li>
+            <li>3. Presiona enter o el boton para comenzar la busqueda</li>
+          </ul>
         </div>
       </div>
-      <div class="cajaAbajo"><div class="lineaAbajo"></div></div>
+      <div class="primerCaja">
+        <div class="cajaArriba">
+          <div class="lineaArriba"></div>
+        </div>
+        <div class="contenedor">
+          <div class="contenedor2">
+            <div class="cajaForm">
+              <form action="" onsubmit="llamadoPokemon(event)">
+                <input type="text" name="pokemon" autocomplete="off" />
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-search"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+            <div class="poke-card">
+              <div id="nombre">Pokedex</div>
+              <div id="imagenCaja" class="cajaImagen">
+                <img
+                  id="imagen"
+                  class="poke-img"
+                  src="/imagenes/Poké_Ball_(Ilustración).png"
+                />
+              </div>
+              <div id="id"></div>
+              <div id="tipos" class="poke-types"></div>
+              <div id="caracteristicas" class="poke-stats"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cajaAbajo"><div class="lineaAbajo"></div></div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
