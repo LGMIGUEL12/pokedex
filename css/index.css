@@ -1,5 +1,5 @@
 .changeBackground {
-  background: url("/imagenes/pokemon-legends-arceus-hero.jpg");
+  background: url("/imagenes/pokemon-go-antes-de-empezar.webp");
   background-size: cover;
 }
 
@@ -31,7 +31,7 @@
 .cajaImagen {
   position: relative;
   width: 100px;
-  margin: 45px;
+  margin: 45 px;
 }
 
 .poke-img {
